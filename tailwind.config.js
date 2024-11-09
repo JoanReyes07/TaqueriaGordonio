@@ -4,6 +4,11 @@ export default {
     "./index.html",
     "./src/**/*.{js,jsx,ts,tsx}"
   ],
+  build: {
+    rollupOptions: {
+      external: ['react-router-dom'] // Excluye react-router-dom si es necesario
+    }
+  },
   theme: {
     extend: {
       fontFamily: {
