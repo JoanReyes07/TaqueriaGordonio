@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:wght@100..900&family=Roboto:wght@300;500;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body{
+  background-color: #329e58;
+} */
+
+/* .bg-gradient-inward {
+  background: radial-gradient(circle, #05C066, transparent);
+}
+.bg-abrupt {
+  background: linear-gradient(90deg, #329e58 70%, #ffffff 30%);
+}
+.swiper-wrapper {
+  padding-bottom: 64px !important;
+}
+
+.swiper-pagination-bullet {
+  background: #4F46E5;
+}
+
+.swiper-pagination-bullet-active {
+  background: #4F46E5 !important;
+}
+ */
