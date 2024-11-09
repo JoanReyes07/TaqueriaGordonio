@@ -5,7 +5,7 @@ import IconBotonInicio from "../icons/IconBotonInicio";
 const PaginaIncio = () => {
     return (
         <div className=' min-h-[100vh] font-inter bg-Verde flex flex-col justify-evenly p-5 text-white '>
-            <div className="header flex justify-between items-center ">
+            <div className="header flex justify-between items-center mt-[-30px]">
                 <div className="texto font-extrabold text-sm animate-fadeintopleft">
                     <p className="mb-[-5px]">De</p>
                     <p >Nexus-Code</p>

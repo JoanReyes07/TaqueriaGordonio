@@ -26,7 +26,7 @@ const PaginaMenu = () => {
                         <Link to="/Menu-Platillo-Tacos">
                             <BtnMenu img={<ImgTacos />} Texto="Tacos"></BtnMenu>
                         </Link>
-                        <Link to="/Menu-Platillo-Tacos">
+                        <Link to="/Menu-Platillo-Tortas">
                             <BtnMenu img={<ImgTacos />} Texto="Tortas"></BtnMenu>
                         </Link>
                         <Link to="/Menu-Platillo-Tacos">
@@ -37,11 +37,8 @@ const PaginaMenu = () => {
                         </Link>
                 </div>
             </div>
-            {/* <div className="footer flex justify-between sm:justify-evenly text-xs font-semibold animate-slideinup mt-2">
-                <Redes />
-            </div> */}
             <div className="footer">
-            <Redes2></Redes2>
+            {/* <Redes2></Redes2> */}
             </div>
         </div>
     );

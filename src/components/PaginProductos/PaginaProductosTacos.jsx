@@ -28,7 +28,7 @@ const PaginaProductos = () => {
                 <SliderTacos />
             </div>
             <div className="footer flex bg-gray-300  animate-slideinup">
-                <Redes2 />
+                {/* <Redes2 /> */}
             </div>
         </div>
     );

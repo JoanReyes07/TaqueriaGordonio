@@ -2,8 +2,6 @@ import PaginaInicio from "./components/PaginaInicio/PaginaInicio";
 import PaginaMenu from "./components/PaginaMenu/PaginaMenu";
 import PaginaProductosTortas from "./components/PaginProductos/PaginaProductosTortas";
 import PaginaProductosTacos from "./components/PaginProductos/PaginaProductosTacos";
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
