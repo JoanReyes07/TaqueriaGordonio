@@ -7,7 +7,10 @@ export default {
   build: {
     rollupOptions: {
       external: ['react-router-dom'] // Excluye react-router-dom si es necesario
-    }
+    },
+    rollupOptions: {
+      external: []  // Asegúrate de no externalizar 'react-slick'
+    },
   },
   theme: {
     extend: {
