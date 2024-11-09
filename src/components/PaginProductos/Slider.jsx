@@ -2,6 +2,8 @@ import { CardTacos, CardTortas } from "./CardProducto";
 import { ImgTacosSuadero, ImgTacosBistec, ImgTacosLonganiza, ImgTacos } from "../img/ImgTacos";
 import React from "react";
 import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 var settings = {
   dots: true,
